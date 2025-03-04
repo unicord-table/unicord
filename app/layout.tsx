@@ -44,9 +44,9 @@ export default function RootLayout({
                 <div className="w-full max-w-5xl flex justify-between items-center p-3 px-5 text-sm">
                   <Link href={"/"}>Unicord</Link>
                   <div className="flex flex-row gap-12">
-                    <Link href={"/"}>Games</Link>
-                    <Link href={"/"}>About</Link>
-                    <Link href={"/"}>People</Link>
+                    <Link href={"/games"}>Games</Link>
+                    <Link href={"/about"}>About</Link>
+                    <Link href={"/people"}>People</Link>
                   </div>
                 </div>
               </nav>
@@ -68,7 +68,7 @@ export default function RootLayout({
                   </a>
                 </p>
                 <div className="flex items-center gap-2">
-                  <DeployButton />
+                  {/* <DeployButton /> */}
                 </div>
                 <div className="gap-4 flex">
                   <ThemeSwitcher />
