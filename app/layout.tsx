@@ -42,11 +42,11 @@ export default function RootLayout({
 
               <nav className="w-full flex justify-center border-b border-b-foreground/10 h-16">
                 <div className="w-full max-w-5xl flex justify-between items-center p-3 px-5 text-sm">
-                  <Link className="font-readex" href={"/"}>Unicord</Link>
+                  <Link href={"/"}>Unicord</Link>
                   <div className="flex flex-row gap-12">
-                    <Link className="font-readex" href={"/"}>Games</Link>
-                    <Link className="font-readex" href={"/"}>About</Link>
-                    <Link className="font-readex" href={"/"}>People</Link>
+                    <Link href={"/"}>Games</Link>
+                    <Link href={"/"}>About</Link>
+                    <Link href={"/"}>People</Link>
                   </div>
                 </div>
               </nav>
